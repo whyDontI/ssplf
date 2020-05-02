@@ -22,4 +22,8 @@ export class DataService {
   _getVehicle(registrationNumber) {
     return this.api.get(`/vehicle-slot?registrationNumber=${registrationNumber}`)
   }
+
+  _searchVehicle(search) {
+    return this.api.get(`/vehicle-search?registrationNumber=${search.registrationNumber}&storyNum=${search.storyNum}&row=${search.row}`)
+  }
 }
