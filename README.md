@@ -6,7 +6,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-# Screenshots
-![Screenshot from 2020-05-02 13-02-44](https://user-images.githubusercontent.com/26569942/80858202-66ae9080-8c75-11ea-9a87-507f2ae53a59.png)
+## Access this procject on this url
+[Parking Lot](https://nameless-journey-28644.herokuapp.com/)
 
-![Screenshot from 2020-05-02 12-49-50](https://user-images.githubusercontent.com/26569942/80858164-22bb8b80-8c75-11ea-9613-b27f5522cae2.png)
+# Screenshot
+![Screenshot from 2020-05-03 03-53-16](https://user-images.githubusercontent.com/26569942/80893660-0873c300-8cf2-11ea-81e6-b19051d4e951.png)
