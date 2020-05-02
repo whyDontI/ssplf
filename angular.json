@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "parkingLot"
+    }
+  },
+  "defaultProject": "parkingLot",
+  "cli": {
+    "analytics": "69990908-80fb-45e2-a123-df933d7f0cf9"
+  }
 }
