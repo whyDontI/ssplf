@@ -24,13 +24,14 @@ export class AppComponent {
     public dataService: DataService
     ) {
       this.getCounts();
+      this.getVehicle();
     }
 
   getCounts() {
     this.dataService._getCounts().subscribe((data) => {
-      this.busCount = data.data.find((e) => e._id.type == 'B');
-      this.carCount = data.data.find((e) => e._id.type == 'C');
-      this.motorcycleCount = data.data.find((e) => e._id.type == 'M');
+      this.busCount = data.data.find((e) => e._id.type === 'B');
+      this.carCount = data.data.find((e) => e._id.type === 'C');
+      this.motorcycleCount = data.data.find((e) => e._id.type === 'M');
     });
   }
 
@@ -38,6 +39,7 @@ export class AppComponent {
     this.dataService._parkVehicle(this.vehicleType, this.registrationNumber).subscribe((data) => {
       alert(data.message);
       this.getCounts();
+      this.getVehicle();
     }, (error) => {
       alert(error.error.message);
     });
