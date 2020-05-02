@@ -45,7 +45,6 @@ export class AppComponent {
 
   getVehicle() {
     this.dataService._searchVehicle(this.search).subscribe((data) => {
-      console.log(data.data);
       this.vehicles = data.data;
     }, (error) => {
       alert(error.error.message);
